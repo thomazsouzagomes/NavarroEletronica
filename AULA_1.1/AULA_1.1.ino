@@ -12,7 +12,7 @@ que pode ser retirado de qualquer sucata disponível
 */
 
 int LED = 13;
-int B = 10;
+int B = 10; //Botão
 int state = 1;
 
 void setup() {
@@ -21,14 +21,17 @@ void setup() {
 }
 
 void loop(){
-  state = digitalRead(B); //Leia o estado do botão
-  if(state = 0)
+  state = digitalRead(B); //Leia o estado do botão 
+  if(state == 0)
      {
        digitalWrite(LED, LOW); //Desliga o LED
+       for(int x = 0; x < 1000; x++){};
+       digitalWrite(LED, HIGH);
+       delay(1000);
      }
        else
      {
-       digitalWrite(LED, HIGH); // Liga o LED
+       digitalWrite(LED, LOW); // Liga o LED
      }
   }
   
@@ -37,3 +40,4 @@ Lembrando que outras estruturas de controle
 possuem uso similar e iremos falar sobre elas
 em uma próxima aula.
 */
+
