@@ -60,15 +60,23 @@ void setup() {
   pinMode(esquenta, OUTPUT);
   pinMode(esfria, OUTPUT);
   lcd.begin(16,2);
+  
+  
+  /*
+  Trecho comentado porque não consegui colocar o for para trabalhar aqui
+  preciso revisar isso, delay não irá funcionar por causa da biblioteca TIMERONE
+  
+  
   lcd.print("NAVARRO"); //Início da mensagem de boas vindas
   lcd.setCursor(0, 1);
   lcd.print("ELETRONICA");
-  delay(2000);
+  //Utilizando for ao invés do Delay porque estamos usando a biblioteca timerone
   lcd.setCursor(0,0);
   lcd.print("TERMOSTATO");
   lcd.setCursor(0, 1);
-  lcd.print("UNIVERSAL");
-  delay(2000);//Final da mensagem de boas vindas
+  lcd.print("UNIVERSAL");//Final da mensagem de boas vindas
+  for(x=1000; x > 0 ; x--){} //Utilizando for ao invés do Delay porque estamos usando a biblioteca timerone
+  */
 }
 
 void loop() {
