@@ -99,7 +99,7 @@ void lm35_read(){
     digitalWrite(esfria,LOW); digitalWrite(esquenta,LOW);
   }
   //Caso esteja mais frio e o aquecimento esteja ativo
-  if(temperatura < setpoint - 2 && aquecimento == 1){
+  if(temperatura < setpoint - 2 && aquecimento_DR == 1){
     digitalWrite(esquenta,HIGH);
   }
   else
