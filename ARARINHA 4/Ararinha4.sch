@@ -15752,6 +15752,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X2" device="" value="TXOUT"/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15909,6 +15911,8 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="SUPPLY34" gate="GND" x="-116.84" y="66.04"/>
 <instance part="JP5" gate="G$1" x="-147.32" y="43.18" rot="R180"/>
 <instance part="SUPPLY35" gate="GND" x="-137.16" y="35.56"/>
+<instance part="SUPPLY36" gate="GND" x="-116.84" y="-7.62"/>
+<instance part="SUPPLY37" gate="GND" x="-43.18" y="-7.62"/>
 </instances>
 <busses>
 </busses>
@@ -16030,29 +16034,15 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="XTAL4" gate="G$1" pin="GND"/>
-<wire x1="185.42" y1="27.94" x2="185.42" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="17.78" x2="182.88" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="15.24" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="15.24" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
-<wire x1="177.8" y1="15.24" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="15.24" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="22.86" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="15.24" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="XTAL5" gate="G$1" pin="GND"/>
-<wire x1="139.7" y1="27.94" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="20.32" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="12.7" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="15.24" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="XTAL2" gate="G$1" pin="GND"/>
-<wire x1="157.48" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="27.94" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="25.4" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="XTAL3" gate="G$1" pin="GND"/>
-<wire x1="170.18" y1="27.94" x2="167.64" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="25.4" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TR2" gate="TR" pin="2"/>
@@ -16175,6 +16165,14 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 <wire x1="-144.78" y1="40.64" x2="-139.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="40.64" x2="-137.16" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TR1" gate="TR" pin="7"/>
+<pinref part="SUPPLY36" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="TR2" gate="TR" pin="6"/>
+<pinref part="SUPPLY37" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -16564,9 +16562,9 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="XTAL3" gate="G$1" pin="1"/>
 <pinref part="XTAL4" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="33.02" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="22.86" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="15.24" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CRYSTALFILTEROUT3" class="0">
