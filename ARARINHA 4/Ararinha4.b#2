@@ -2023,11 +2023,11 @@ design rules under a new name.</description>
 <element name="C3" library="resistor" package="C050-030X075" value="47nF" x="146.36" y="52.55" rot="R180"/>
 <element name="C30" library="resistor" package="C050-030X075" value="47nF" x="76.82" y="48.31"/>
 <element name="C31" library="resistor" package="C050-030X075" value="15pF" x="88.93" y="38.31"/>
-<element name="C32" library="resistor" package="C050-030X075" value="100nF" x="45.04" y="35.31"/>
-<element name="C33" library="resistor" package="C050-030X075" value="100nF" x="37.15" y="17.31"/>
+<element name="C32" library="resistor" package="C050-030X075" value="100nF" x="97.04" y="55.31"/>
+<element name="C33" library="resistor" package="C050-030X075" value="100nF" x="41.69" y="22.15" rot="R90"/>
 <element name="C34" library="resistor" package="C050-030X075" value="100nF" x="76.26" y="15.31"/>
 <element name="C35" library="resistor" package="C050-030X075" value="100nF" x="107.69" y="7.37" rot="R90"/>
-<element name="C36" library="resistor" package="C050-030X075" value="100nF" x="39.49" y="10.93"/>
+<element name="C36" library="resistor" package="C050-030X075" value="100nF" x="105.49" y="18.93"/>
 <element name="C37" library="resistor" package="C050-030X075" value="100nF" x="105.6" y="29.93"/>
 <element name="C38" library="resistor" package="C050-030X075" value="100nF" x="-34.29" y="74.93"/>
 <element name="C39" library="resistor" package="C050-030X075" value="100nF" x="-43.18" y="74.93"/>
@@ -2057,7 +2057,7 @@ design rules under a new name.</description>
 <element name="Q1" library="transistor-npn" package="TO92-EBC" value="BC548" x="138.51" y="51.17" rot="R180"/>
 <element name="Q2" library="transistor-npn" package="TO92-EBC" value="BC548" x="-24.13" y="36.83"/>
 <element name="Q3" library="transistor-npn" package="TO92-EBC" value="BC548" x="-31.75" y="36.83"/>
-<element name="Q4" library="transistor-npn" package="TO92-EBC" value="BC548" x="56.83" y="10.37" rot="R270"/>
+<element name="Q4" library="transistor-npn" package="TO92-EBC" value="BC548" x="49.83" y="16.37" rot="R270"/>
 <element name="Q5" library="transistor-npn" package="TO92-EBC" value="BC548" x="91.83" y="10.99" rot="R270"/>
 <element name="Q6" library="transistor-npn" package="TO92-EBC" value="BC548" x="-54.61" y="36.83"/>
 <element name="R1" library="resistor" package="0204/7" value="10k" x="141" y="64" rot="R270"/>
@@ -2194,11 +2194,11 @@ design rules under a new name.</description>
 <wire x1="-58.42" y1="52.07" x2="88.69" y2="34.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.64" y1="52.07" x2="-43.18" y2="44.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.31" y1="59.69" x2="-58.42" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="39.69" y1="17.31" x2="-67.31" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="47.58" y1="35.31" x2="39.69" y2="17.31" width="0" layer="19" extent="1-1"/>
+<wire x1="41.69" y1="24.69" x2="-67.31" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="99.58" y1="55.31" x2="41.69" y2="24.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.2" y1="52.07" x2="-67.31" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-85.09" y1="52.07" x2="-76.2" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.53" y1="74.93" x2="47.58" y2="35.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.53" y1="74.93" x2="99.58" y2="55.31" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.64" y1="74.93" x2="-49.53" y2="74.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-36.83" y1="82.55" x2="-40.64" y2="74.93" width="0" layer="19" extent="1-1"/>
 <wire x1="99.79" y1="50.55" x2="-36.83" y2="82.55" width="0" layer="19" extent="1-1"/>
@@ -2545,8 +2545,8 @@ design rules under a new name.</description>
 <contactref element="R19" pad="1"/>
 <wire x1="94.71" y1="50.55" x2="117.03" y2="43.52" width="0" layer="19" extent="1-1"/>
 <wire x1="47.09" y1="27.52" x2="94.71" y2="50.55" width="0" layer="19" extent="1-1"/>
-<wire x1="42.5" y1="35.31" x2="94.71" y2="50.55" width="0" layer="19" extent="1-1"/>
-<wire x1="81.71" y1="54.29" x2="42.5" y2="35.31" width="0" layer="19" extent="1-1"/>
+<wire x1="94.5" y1="55.31" x2="94.71" y2="50.55" width="0" layer="19" extent="1-1"/>
+<wire x1="81.71" y1="54.29" x2="94.5" y2="55.31" width="0" layer="19" extent="1-1"/>
 <wire x1="88.76" y1="44.45" x2="94.71" y2="50.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$39">
@@ -2564,14 +2564,14 @@ design rules under a new name.</description>
 <contactref element="R18" pad="1"/>
 <contactref element="C34" pad="1"/>
 <wire x1="73.72" y1="15.31" x2="40.25" y2="41.52" width="0" layer="19" extent="1-1"/>
-<wire x1="55.56" y1="7.83" x2="73.72" y2="15.31" width="0" layer="19" extent="1-1"/>
+<wire x1="48.56" y1="13.83" x2="73.72" y2="15.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="CI2" pad="6"/>
 <contactref element="Q4" pad="B"/>
 <contactref element="R20" pad="1"/>
 <wire x1="81.14" y1="44.45" x2="55.07" y2="23.48" width="0" layer="19" extent="1-1"/>
-<wire x1="55.56" y1="10.37" x2="81.14" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="48.56" y1="16.37" x2="81.14" y2="44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$44">
 <contactref element="C33" pad="1"/>
@@ -2579,8 +2579,8 @@ design rules under a new name.</description>
 <contactref element="R19" pad="2"/>
 <contactref element="Q4" pad="C"/>
 <wire x1="47.45" y1="23.48" x2="54.71" y2="27.52" width="0" layer="19" extent="1-1"/>
-<wire x1="34.61" y1="17.31" x2="47.45" y2="23.48" width="0" layer="19" extent="1-1"/>
-<wire x1="55.56" y1="12.91" x2="34.61" y2="17.31" width="0" layer="19" extent="1-1"/>
+<wire x1="41.69" y1="19.61" x2="47.45" y2="23.48" width="0" layer="19" extent="1-1"/>
+<wire x1="48.56" y1="18.91" x2="41.69" y2="19.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
 <contactref element="R21" pad="2"/>
@@ -2614,7 +2614,7 @@ design rules under a new name.</description>
 <contactref element="T1" pad="2"/>
 <contactref element="T1" pad="3"/>
 <contactref element="C36" pad="1"/>
-<wire x1="96.61" y1="27.15" x2="36.95" y2="10.93" width="0" layer="19" extent="1-1"/>
+<wire x1="96.61" y1="27.15" x2="102.95" y2="18.93" width="0" layer="19" extent="1-1"/>
 <wire x1="91.53" y1="22.07" x2="96.61" y2="27.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
@@ -2629,7 +2629,7 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="5"/>
 <contactref element="IC1" pad="1"/>
 <wire x1="-68.58" y1="2.54" x2="-78.74" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="42.03" y1="10.93" x2="-68.58" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="108.03" y1="18.93" x2="-68.58" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MIXER1">
 <contactref element="C29" pad="1"/>

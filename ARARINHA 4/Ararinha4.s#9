@@ -15213,6 +15213,121 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="42IF123">
+<description>IF transformer 10.7MHz</description>
+<packages>
+<package name="42IF123">
+<description>IF transformer 42IF123</description>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="-1.5" y2="1" width="0.127" layer="21" curve="-180"/>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="0" width="0.127" layer="21" curve="-180"/>
+<wire x1="-1.5" y1="0" x2="-1.5" y2="-1" width="0.127" layer="21" curve="-180"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="-2" width="0.127" layer="21" curve="-180"/>
+<wire x1="-3" y1="3.5" x2="-1.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="3.5" x2="-1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-3.5" x2="-3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-3.5" x2="1.5" y2="-2.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.5" y1="-2.5" x2="1.5" y2="-1.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-0.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.5" y1="0.5" x2="1.5" y2="1.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="2.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="3.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.5" y1="3.5" x2="3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.5" x2="1.5" y2="0" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0" x2="1.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0" x2="3" y2="0" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-3.5" x2="3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="1" width="0.3048" layer="21"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.3048" layer="21"/>
+<wire x1="0" y1="-1" x2="0" y2="-2" width="0.3048" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="0.762" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.508" y1="2.032" x2="0.762" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.762" y1="2.54" x2="0.254" y2="2.286" width="0.127" layer="21"/>
+<wire x1="-5" y1="5" x2="-2" y2="5" width="0.127" layer="21"/>
+<wire x1="2" y1="5" x2="5" y2="5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5" x2="-2" y2="-5" width="0.127" layer="21"/>
+<wire x1="2" y1="-5" x2="5" y2="-5" width="0.127" layer="21"/>
+<pad name="P$5" x="3.5" y="3.5" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$4" x="3.5" y="0" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$3" x="3.5" y="-3.5" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$2" x="-3.5" y="-3.5" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$1" x="-3.5" y="3.5" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$6" x="0" y="5" drill="1.6" diameter="3.302" shape="octagon"/>
+<pad name="P$7" x="0" y="-5" drill="1.6" diameter="3.302" shape="octagon"/>
+<text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="6.35" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="42IF123">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="1.27" x2="0" y2="3.81" width="0.8128" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-3.81" width="0.8128" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-8.89" width="0.8128" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="8.89" width="0.8128" layer="94"/>
+<wire x1="-7.62" y1="11.43" x2="7.62" y2="11.43" width="0.254" layer="94"/>
+<wire x1="7.62" y1="11.43" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="11.43" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.254" width="0.254" layer="94"/>
+<circle x="-2.54" y="-12.7" radius="0.254" width="0.254" layer="94"/>
+<circle x="2.54" y="-12.7" radius="0.254" width="0.254" layer="94"/>
+<circle x="-2.54" y="-12.7" radius="0.3592" width="0.254" layer="94"/>
+<circle x="2.54" y="-12.7" radius="0.3592" width="0.254" layer="94"/>
+<text x="-5.08" y="6.35" size="1.778" layer="94">1</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="94">2</text>
+<text x="3.81" y="-8.89" size="1.778" layer="94">3</text>
+<text x="3.81" y="1.27" size="1.778" layer="94">4</text>
+<text x="3.81" y="7.62" size="1.778" layer="94">5</text>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="5.08" visible="off"/>
+<pin name="2" x="-10.16" y="-5.08" visible="off"/>
+<pin name="3" x="10.16" y="-10.16" visible="off" rot="R180"/>
+<pin name="4" x="10.16" y="0" visible="off" rot="R180"/>
+<pin name="5" x="10.16" y="10.16" visible="off" rot="R180"/>
+<pin name="6" x="-2.54" y="-12.7" visible="off" length="point" rot="R90"/>
+<pin name="7" x="2.54" y="-12.7" visible="off" length="point" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="42IF123" prefix="TR">
+<description>IF transformer 10.7 MHz</description>
+<gates>
+<gate name="TR" symbol="42IF123" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42IF123">
+<connects>
+<connect gate="TR" pin="1" pad="P$1"/>
+<connect gate="TR" pin="2" pad="P$2"/>
+<connect gate="TR" pin="3" pad="P$3"/>
+<connect gate="TR" pin="4" pad="P$4"/>
+<connect gate="TR" pin="5" pad="P$5"/>
+<connect gate="TR" pin="6" pad="P$6"/>
+<connect gate="TR" pin="7" pad="P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15298,6 +15413,14 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="K1" library="relay" deviceset="G6A-234P" device=""/>
 <part name="K2" library="relay" deviceset="G6A-234P" device=""/>
+<part name="TR1" library="42IF123" deviceset="42IF123" device=""/>
+<part name="TR2" library="42IF123" deviceset="42IF123" device=""/>
+<part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
+<part name="C23" library="resistor" deviceset="C-US" device="050-030X075" value="100pF"/>
+<part name="C24" library="resistor" deviceset="C-US" device="050-030X075" value="100pF"/>
+<part name="C25" library="resistor" deviceset="C-US" device="050-030X075" value="150pF"/>
+<part name="C26" library="resistor" deviceset="C-US" device="050-030X075" value="150pF"/>
+<part name="C27" library="resistor" deviceset="C-US" device="050-030X075" value="8.2pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -15386,6 +15509,14 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <instance part="K2" gate="1" x="-180.34" y="76.2"/>
 <instance part="K2" gate="2" x="-162.56" y="76.2"/>
 <instance part="K2" gate="3" x="-162.56" y="60.96"/>
+<instance part="TR1" gate="TR" x="-279.4" y="165.1"/>
+<instance part="TR2" gate="TR" x="-205.74" y="165.1" rot="MR0"/>
+<instance part="SUPPLY21" gate="GND" x="-243.84" y="142.24"/>
+<instance part="C23" gate="G$1" x="-299.72" y="170.18" rot="R90"/>
+<instance part="C24" gate="G$1" x="-187.96" y="170.18" rot="R90"/>
+<instance part="C25" gate="G$1" x="-261.62" y="165.1"/>
+<instance part="C26" gate="G$1" x="-226.06" y="165.1"/>
+<instance part="C27" gate="G$1" x="-243.84" y="175.26" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15530,6 +15661,18 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pinref part="XTAL3" gate="G$1" pin="GND"/>
 <wire x1="-63.5" y1="0" x2="-66.04" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="-2.54" x2="-66.04" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TR2" gate="TR" pin="2"/>
+<wire x1="-195.58" y1="160.02" x2="-193.04" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-193.04" y1="157.48" x2="-193.04" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<wire x1="-193.04" y1="147.32" x2="-195.58" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="144.78" x2="-243.84" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="144.78" x2="-287.02" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="TR1" gate="TR" pin="2"/>
+<wire x1="-287.02" y1="144.78" x2="-289.56" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-289.56" y1="147.32" x2="-289.56" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -15902,6 +16045,67 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pinref part="K1" gate="3" pin="P"/>
 <wire x1="-109.22" y1="66.04" x2="-106.68" y2="66.04" width="0.1524" layer="91"/>
 <label x="-106.68" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="TR1" gate="TR" pin="3"/>
+<pinref part="TR2" gate="TR" pin="3"/>
+<wire x1="-269.24" y1="154.94" x2="-261.62" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="-261.62" y1="154.94" x2="-226.06" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-226.06" y1="154.94" x2="-215.9" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-261.62" y1="160.02" x2="-261.62" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="-226.06" y1="160.02" x2="-226.06" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="TR1" gate="TR" pin="1"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="-294.64" y1="170.18" x2="-289.56" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="TR2" gate="TR" pin="1"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="-190.5" y1="170.18" x2="-195.58" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="TR2" gate="TR" pin="5"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="-215.9" y1="175.26" x2="-226.06" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="-226.06" y1="175.26" x2="-238.76" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-226.06" y1="167.64" x2="-226.06" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="C27" gate="G$1" pin="1"/>
+<pinref part="TR1" gate="TR" pin="5"/>
+<wire x1="-246.38" y1="175.26" x2="-261.62" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="-261.62" y1="175.26" x2="-269.24" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-261.62" y1="167.64" x2="-261.62" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BPF_IN" class="0">
+<segment>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="-302.26" y1="170.18" x2="-307.34" y2="170.18" width="0.1524" layer="91"/>
+<label x="-307.34" y="170.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BPF_OUT" class="0">
+<segment>
+<pinref part="C24" gate="G$1" pin="2"/>
+<wire x1="-182.88" y1="170.18" x2="-177.8" y2="170.18" width="0.1524" layer="91"/>
+<label x="-177.8" y="170.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

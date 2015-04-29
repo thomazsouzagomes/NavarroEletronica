@@ -15752,6 +15752,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X2" device="" value="TXOUT"/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15909,6 +15911,8 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="SUPPLY34" gate="GND" x="-116.84" y="66.04"/>
 <instance part="JP5" gate="G$1" x="-147.32" y="43.18" rot="R180"/>
 <instance part="SUPPLY35" gate="GND" x="-137.16" y="35.56"/>
+<instance part="SUPPLY36" gate="GND" x="-116.84" y="-7.62"/>
+<instance part="SUPPLY37" gate="GND" x="-43.18" y="-7.62"/>
 </instances>
 <busses>
 </busses>
@@ -16175,6 +16179,14 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 <wire x1="-144.78" y1="40.64" x2="-139.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="40.64" x2="-137.16" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TR1" gate="TR" pin="7"/>
+<pinref part="SUPPLY36" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="TR2" gate="TR" pin="6"/>
+<pinref part="SUPPLY37" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="TX" class="0">
