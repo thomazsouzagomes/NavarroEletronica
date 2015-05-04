@@ -79,6 +79,9 @@
 <hole x="2" y="34" drill="2.8"/>
 <hole x="119" y="34" drill="2.8"/>
 <hole x="119" y="2" drill="2.8"/>
+<text x="47" y="30" size="1.016" layer="1" font="vector" ratio="14">ARARINHA 4 PA</text>
+<text x="47" y="28" size="1.016" layer="1" font="vector" ratio="14">FELIPE NAVARRO</text>
+<text x="55" y="26" size="1.016" layer="1" font="vector" ratio="14">PY1CX</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1934,12 +1937,6 @@ design rules under a new name.</description>
 <wire x1="1" y1="8" x2="2" y2="7" width="1.27" layer="1"/>
 <wire x1="2" y1="7" x2="3.7" y2="7" width="1.27" layer="1"/>
 <wire x1="3.7" y1="7" x2="3.81" y2="6.89" width="1.27" layer="1"/>
-<polygon width="0.8128" layer="1" spacing="0.8128" isolate="0.6096">
-<vertex x="0" y="36"/>
-<vertex x="0" y="0"/>
-<vertex x="121" y="0"/>
-<vertex x="121" y="36"/>
-</polygon>
 </signal>
 <signal name="N$5">
 <contactref element="Q1" pad="E"/>
@@ -2157,6 +2154,14 @@ design rules under a new name.</description>
 <wire x1="106.58" y1="7.42" x2="109" y2="5" width="1.27" layer="16"/>
 <wire x1="109" y1="5" x2="109" y2="3.79" width="1.27" layer="16"/>
 <wire x1="109" y1="3.79" x2="109.29" y2="3.5" width="1.27" layer="16"/>
+</signal>
+<signal name="N$24">
+<polygon width="0.8128" layer="1" spacing="0.8128" isolate="0.6096">
+<vertex x="0" y="36"/>
+<vertex x="0" y="0"/>
+<vertex x="121" y="0"/>
+<vertex x="121" y="36"/>
+</polygon>
 </signal>
 </signals>
 </board>
